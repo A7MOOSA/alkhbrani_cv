@@ -1,0 +1,104 @@
+body {
+    background-color: #ececec;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+    color: #065c6f;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.job,
+.education {
+    margin-bottom: 20px;
+}
+
+.job-title,
+.education-title {
+    font-weight: bold;
+}
+
+.job-details,
+.education-details {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    margin-bottom: 5px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.contact-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.profile-image {
+    float: right;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 20px;
+    object-fit: cover;
+ }
+
+ 
+    @media screen and(max-width:576px)  {
+        div{
+    
+    float: none;
+    width: 100px;
+    
+        }
+    }
+
+    @media screen and(max-width:992) {
+        div {
+
+            float: none;
+            width: 100px;
+
+        }
+    }
+
+    @media screen and(max-width:768px) {
+        div {
+
+            float: none;
+            width: 100px;
+
+        }
+    }
+
+
+
